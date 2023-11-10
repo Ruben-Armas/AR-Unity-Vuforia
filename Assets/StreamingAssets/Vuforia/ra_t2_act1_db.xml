@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="a_baby_crawling_with_toys" size="0.200000 0.125000" />
+    <ImageTarget name="enchufe" size="0.200000 0.112669" />
+    <ImageTarget name="enchufe_ladron" size="0.200000 0.134152" />
+    <ImageTarget name="a_baby_crawling" size="0.200000 0.125000" />
+  </Tracking>
+</QCARConfig>
