@@ -12,6 +12,7 @@ public class ElectrocutionTrigger : MonoBehaviour {
     private void OnCollisionEnter(Collision collision) {
         if (collision != null) {
             if (collision.gameObject.CompareTag("Wall")) {
+                Debug.Log("collision");
                 StartElectrocutionEffect();
             }
         }
