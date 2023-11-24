@@ -78,8 +78,4 @@ public class ElectrocutionTrigger : MonoBehaviour {
             electrocutionSound.Stop();
         }
     }
-
-    private void OnTriggerEnter(Collider other) {
-        Debug.Log("Electrocution");
-    }
 }
