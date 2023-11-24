@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ElectrocutionTrigger : MonoBehaviour {
     public ParticleSystem electrocutionParticles;
+    public AudioSource electrocutionSound;
 
     // La posición de destino en el eje X
     public float posicionDestinoX = 0.05f;
@@ -10,9 +11,11 @@ public class ElectrocutionTrigger : MonoBehaviour {
     public float velocidadLerp = 2f;
 
     private float initialPosition;
+    private int contSounds = 0;
 
     void Start() {
         initialPosition = transform.position.x;
+        contSounds = 0;
     }
 
 
@@ -36,8 +39,12 @@ public class ElectrocutionTrigger : MonoBehaviour {
             //Debug.Log("Px " + modPos + " Nx " + modNewPos);
             //Debug.Log("collision");
             StartElectrocutionEffect();
+            PlayElectrocutionSound();
         }
-        else StopElectrocutionEffect();
+        else {
+            StopElectrocutionEffect();
+            //StopElectrocutionSound();
+        }
     }
 
     /*private void OnCollisionEnter(Collision collision) {
@@ -59,5 +66,20 @@ public class ElectrocutionTrigger : MonoBehaviour {
     private void StopElectrocutionEffect() {
         electrocutionParticles.Stop();
     }
+    private void PlayElectrocutionSound() {
+        contSounds++;
+        if (electrocutionSound != null && contSounds > 3 && contSounds <= 4) {
+            Debug.Log("Electrocution");
+            electrocutionSound.Play();
+        }
+    }    
+    private void StopElectrocutionSound() {
+        if (electrocutionSound.isPlaying) {
+            electrocutionSound.Stop();
+        }
+    }
 
+    private void OnTriggerEnter(Collider other) {
+        Debug.Log("Electrocution");
+    }
 }
