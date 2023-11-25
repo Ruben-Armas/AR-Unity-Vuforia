@@ -159,6 +159,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.ARUnityVuforia
+    Standalone: com.DefaultCompany.AR-Unity-Vuforia
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -769,7 +770,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: AR-Unity-Vuforia
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -777,7 +778,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: AR-Unity-Vuforia
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: AR-Unity-Vuforia
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

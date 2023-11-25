@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.1.2">
+        <ModelTarget name="Minecraft_Deck" targetId="4d11d3f9bd4c4bbf8c608db954e2bce9" version="13.0" toolVersion="v6.1.2" bbox="-0.418640 -0.000447 -0.432944 0.492327 0.105542 0.483389" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="Minecraft_Deck" assemblyId="d6902e78d98b4f97bbc78a5d19a3a397">
+        <Part name="Minecraft_Deck" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
