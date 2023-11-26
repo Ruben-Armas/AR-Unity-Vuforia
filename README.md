@@ -8,10 +8,10 @@ Teniendo un desenlace fatal.
 Se han utilizado tecnologías de RA como Vuforia (para incluir las imágenes y su detección), diversos paquetes de Unity, y la herramienta de Realidad Virtual (Polycam) que permite escanear un objeto de la vida real para transformarlo en un objeto 3D y añadirlo al proyecto.
 
 # Imágenes para usar en la aplicación
-- [Carpeta](https://github.com/Ruben-Armas/AR-Unity-Vuforia/tree/d4ea3e16a630178053cf58f65e8152d1425d3084/Images%20Target)
-- ![Img-1](Images Target/a_baby_crawling_scaled.jpg)
-- ![Img-2](Images Target/a_baby_crawling_scaled.jpg)
-- ![Img-3](Images Target/enchufe_ladron_scaled.jpg)
+- [Carpeta](https://github.com/Ruben-Armas/AR-Unity-Vuforia/tree/1366e3aa749ce27bf474da8e5973c3854c224bcd/img/Target)
+- ![Img-1](Img/Target/a_baby_crawling_scaled.jpg)
+- ![Img-2](Img/Target/a_baby_crawling_scaled.jpg)
+- ![Img-3](Img/Target/enchufe_ladron_scaled.jpg)
 
 # Cómo descargar la aplicación
 - [Enlace](https://drive.google.com/file/d/161b0qrRWuHbTDLhzOZBFOMIwFtMCIks2/view?usp=sharing)
