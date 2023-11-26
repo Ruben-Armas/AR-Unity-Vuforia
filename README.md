@@ -11,9 +11,9 @@ Se han utilizado tecnologías de RA como Vuforia (para incluir las imágenes y s
 - [Enlace](https://github.com/Ruben-Armas/AR-Unity-Vuforia/tree/d4ea3e16a630178053cf58f65e8152d1425d3084/Images%20Target)
 
 # Cómo descargar la aplicación
-- ![QR para descargar el APK](img/apk.png)
-
 - [Enlace](https://drive.google.com/file/d/161b0qrRWuHbTDLhzOZBFOMIwFtMCIks2/view?usp=sharing)
+![QR para descargar el APK](img/apk.png)
+
 
 # Vídeos demostrativos
 - [Enlace](https://drive.google.com/drive/folders/1jkdcgDkmHgNLpnykILjbSWLep0dq2JNM?usp=sharing)
