@@ -9,9 +9,9 @@ Se han utilizado tecnologías de RA como Vuforia (para incluir las imágenes y s
 
 # Imágenes para usar en la aplicación
 - [Carpeta](https://github.com/Ruben-Armas/AR-Unity-Vuforia/tree/1366e3aa749ce27bf474da8e5973c3854c224bcd/img/Target)
-- ![Img-1](Img/Target/a_baby_crawling_scaled.jpg)
-- ![Img-2](Img/Target/a_baby_crawling_scaled.jpg)
-- ![Img-3](Img/Target/enchufe_ladron_scaled.jpg)
+- ![Img-1](img/Target/a_baby_crawling_scaled.jpg)
+- ![Img-2](img/Target/a_baby_crawling_scaled.jpg)
+- ![Img-3](img/Target/enchufe_ladron_scaled.jpg)
 
 # Cómo descargar la aplicación
 - [Enlace](https://drive.google.com/file/d/161b0qrRWuHbTDLhzOZBFOMIwFtMCIks2/view?usp=sharing)
